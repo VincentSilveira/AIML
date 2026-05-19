@@ -29,3 +29,52 @@ y_pred = dt_model.predict(X_test)
 print("Decision Tree Accuracy:", accuracy_score(y_test, y_pred))
 print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
 print("Classification Report:\n", classification_report(y_test, y_pred))
+
+"""
+
+Decision Tree is a supervised learning algorithm used for classification and regression tasks.
+It represents decisions using a tree-like structure consisting of:
+Root Node
+Decision Nodes
+Branches
+Leaf Nodes
+The algorithm recursively splits data based on feature conditions.
+Important splitting measures:
+Entropy
+Information Gain
+Gini Index
+Entropy formula:
+
+Entropy=−∑p
+i
+	​
+
+log
+2
+	​
+
+(p
+i
+	​
+
+)
+
+Gini Index formula:
+
+Gini=1−∑p
+i
+2
+	​
+
+
+Decision Trees are used in:
+Loan approval systems
+Medical diagnosis
+Fraud detection
+Advantages:
+Easy interpretation
+Handles categorical and numerical data
+Limitations:
+Overfitting
+Sensitive to small data changes
+"""
