@@ -27,3 +27,71 @@ plt.title("K-Means Clustering using Iris Dataset")
 
 
 plt.show()
+
+
+"""
+K-Means is an unsupervised machine learning algorithm used for clustering similar data points into groups.
+The algorithm partitions data into K clusters where K is predefined by the user.
+Each cluster is represented by a centroid.
+Working steps:
+Choose K clusters
+Initialize random centroids
+Assign points to nearest centroid
+Update centroids
+Repeat until convergence
+Distance is calculated using Euclidean Distance:
+d=
+(x
+2
+	​
+
+−x
+1
+	​
+
+)
+2
++(y
+2
+	​
+
+−y
+1
+	​
+
+)
+2
+	​
+
+-10
+-8
+-6
+-4
+-2
+2
+4
+6
+8
+10
+-10
+-5
+5
+10
+A(6.0, 6.0)
+B(-6.0, -6.0)
+d = 16.97
+Delta x = 12
+Delta y = 12
+K-Means is commonly used in:
+Customer segmentation
+Image compression
+Recommendation systems
+Market analysis
+Advantages:
+Fast and scalable
+Easy implementation
+Limitations:
+Sensitive to outliers
+Requires predefined K
+Assumes spherical clusters
+"""
